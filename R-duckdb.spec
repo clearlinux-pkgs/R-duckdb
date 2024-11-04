@@ -7,7 +7,7 @@
 #
 Name     : R-duckdb
 Version  : 1.1.1
-Release  : 3
+Release  : 4
 URL      : https://cran.r-project.org/src/contrib/duckdb_1.1.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/duckdb_1.1.1.tar.gz
 Summary  : DBI Package for the DuckDB Database Management System
