@@ -1,5 +1,5 @@
 PKG_NAME := R-duckdb
-URL = https://cran.r-project.org/src/contrib/duckdb_1.1.1.tar.gz
+URL = https://ftp.osuosl.org/pub/cran/src/contrib/duckdb_1.1.2.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
