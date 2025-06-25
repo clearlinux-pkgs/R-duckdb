@@ -6,10 +6,10 @@
 # autospec commit: 65cf152
 #
 Name     : R-duckdb
-Version  : 1.3.0
-Release  : 10
-URL      : https://ftp.osuosl.org/pub/cran/src/contrib/duckdb_1.3.0.tar.gz
-Source0  : https://ftp.osuosl.org/pub/cran/src/contrib/duckdb_1.3.0.tar.gz
+Version  : 1.3.1
+Release  : 11
+URL      : https://ftp.osuosl.org/pub/cran/src/contrib/duckdb_1.3.1.tar.gz
+Source0  : https://ftp.osuosl.org/pub/cran/src/contrib/duckdb_1.3.1.tar.gz
 Summary  : DBI Package for the DuckDB Database Management System
 Group    : Development/Tools
 License  : MIT
@@ -42,10 +42,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1748903384
+export SOURCE_DATE_EPOCH=1750874998
 
 %install
-export SOURCE_DATE_EPOCH=1748903384
+export SOURCE_DATE_EPOCH=1750874998
 rm -rf %{buildroot}
 LANG=C.UTF-8
 CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -O3 -flto -fno-semantic-interposition "
